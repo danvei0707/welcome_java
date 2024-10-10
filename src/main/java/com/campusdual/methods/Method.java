@@ -33,8 +33,17 @@ public class Method {
         return value;
     }
 
+    public static String customMessageProvider(String customName) {
+        return "Hello " + customName + "! this is your custom message";
+    }
+
     public static void main(String[] args) {
         logicOperators();
         System.out.println("Arithmetical Operators result: " + arithmeticOperators());
+        String name = "Daniel";
+        String message = customMessageProvider(name);
+        System.out.println(customMessageProvider(name));
+        System.out.println(message);
+
     }
 }
