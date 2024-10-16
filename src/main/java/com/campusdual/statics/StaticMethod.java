@@ -21,8 +21,4 @@ public class StaticMethod {
             return "hi " + name + "!, countdown to " + year + ": " + Math.abs(days) + " days.";
         }
     }
-
-    public static void main(String[] args) {
-        System.out.println(StaticMethod.countDownToYear("Daniel", 2025));
-    }
 }
