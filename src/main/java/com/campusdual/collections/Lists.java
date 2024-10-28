@@ -7,6 +7,9 @@ public class Lists {
     public static void main(String[] args) {
         // Se deben guardar las colecciones dentro de su interfaz, no del objeto en sí
         List<String> instruments = new ArrayList<>();
+        // SUBTIPOS DE LIST:
+        // ArrayList<>
+        // LinkedList<>
 
         instruments.add("Guitar");
         instruments.add("Piano");
